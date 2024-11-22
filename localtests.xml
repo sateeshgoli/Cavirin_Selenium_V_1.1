@@ -19,7 +19,7 @@
 	
 	<!-- Local Environments -->
 	
-	<test name="windows-chrome" enabled="false">
+	<test name="windows-chrome" enabled="true">
 		<parameter name="os" value="windows"/>
 		<parameter name="browser" value="chrome"/>
 		<classes>
@@ -32,7 +32,7 @@
 		</classes>
 	</test>
 	
-	<test name="windows-edge" enabled="true">
+	<test name="windows-edge" enabled="false">
 		<parameter name="os" value="windows"/>
 		<parameter name="browser" value="edge"/>
 		<classes>
@@ -42,7 +42,7 @@
 	</test>
 	
 	
-	<test name="linux-firefox" enabled="true">
+	<test name="linux-firefox" enabled="false">
 		<parameter name="os" value="linux"/>
 		<parameter name="browser" value="firefox"/>
 		<classes>
